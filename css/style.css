@@ -423,6 +423,34 @@ section { padding: 6rem 2rem; }
   letter-spacing: 0.04em;
 }
 
+/* ── PERFORMANCES ── */
+#performances { background: var(--brown); text-align: center; }
+
+#performances .section-label { color: var(--gold); }
+#performances .section-title { color: var(--cream); }
+#performances .section-rule { background: var(--terra); margin-left: auto; margin-right: auto; }
+
+.perform-inner { max-width: 640px; }
+
+.perform-intro {
+  color: var(--tan);
+  line-height: 1.9;
+  margin-bottom: 2.75rem;
+}
+
+.btn-perform {
+  display: inline-block;
+  padding: 1rem 3rem;
+  background: var(--terra);
+  color: var(--cream);
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: background 0.2s;
+}
+
+.btn-perform:hover { background: #9e4d2e; }
+
 /* ── REPERTOIRE ── */
 #repertoire { background: var(--cream); }
 
