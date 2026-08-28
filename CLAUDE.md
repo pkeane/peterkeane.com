@@ -8,7 +8,6 @@ the **`main` branch root**; `CNAME` holds the custom domain).
 - `index.html` — the whole site: hero, bio, Listen Online (Spotify/Apple/Bandcamp),
   Albums, Performances. Sections are plain `<h2 class="section-title">` blocks.
 - `css/style.css` — all styling.
-- `birthday.html` — standalone 60th-birthday card-ideas page, not linked from the nav.
 - `performances/` — **its own subproject with its own CLAUDE.md.** Read that before
   touching anything in it; `performances/index.html` is generated, not hand-edited.
 
